@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_marginBaseline="16dp"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <TextView
         android:id="@+id/textTitulo"
@@ -23,7 +23,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="36dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_primeiro_nome"
@@ -37,7 +37,7 @@
     <EditText
         android:id="@+id/editPrimeiroNome"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_sobrenome"
@@ -50,7 +50,7 @@
     <EditText
         android:id="@+id/editSobrenome"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_nome_do_curso_desejado"
@@ -63,7 +63,7 @@
     <EditText
         android:id="@+id/editNomeCurso"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_telefone_de_contato"
@@ -77,13 +77,12 @@
         android:id="@+id/btnLimpar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="180dp"
         android:layout_marginBottom="44dp"
         android:background="@color/corBotoes"
         android:text="@string/txt_button_limpar"
         app:layout_constraintBottom_toTopOf="@+id/btnFinalizar"
         app:layout_constraintEnd_toStartOf="@+id/btnSalvar"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editSobrenome"
         app:layout_constraintVertical_bias="1.0" />
